@@ -10,15 +10,23 @@ const Navbar = () => {
                     {/* <span>Pass</span><span className='text-green-500'>OP/&gt;</span> */}
                     <span>Password </span><span className='text-green-500'>Manager/&gt;</span>
                 </div>
-                {/* <ul>
+                <ul>
                     <li className='flex gap-4 '>
-                        <a className='hover:font-bold' href='/'>Home</a>
-                        <a className='hover:font-bold' href='#'>About</a>
-                        <a className='hover:font-bold' href='#'>Contact</a>
+                        <a className='hover:font-bold' href='/Home'>Home</a>
+                        <a className='hover:font-bold' href='/'>Sign Out</a>
+                        <a className='hover:font-bold' href='/about'>about</a>
+                        <a className='hover:font-bold' href='/contact'>Contact Us</a>
+                        {/* <a className='hover:font-bold' href='/passwordlist'>Password List</a> */}
+
+
+
+                        
                     </li>
-                </ul> */}
+                </ul>
                 <button className='text-white bg-green-700 my-5 mx-2 rounded-full flex  justify-between items-center ring-white ring-1'>
-                    <img className='invert  w-10 p-1' src="/icons/github.svg" alt="github logo" />
+                <a href="https://github.com/Atishay3012/Password_Manager" target="_blank">
+                     <img className='invert  w-10 p-1' src="/icons/github.svg" alt="github logo" />
+                     </a>
                     <span className='font-bold px-2'>GitHub</span>
 
                 </button>
